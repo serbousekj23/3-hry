@@ -6,8 +6,8 @@
         {
             Console.WriteLine("Sibenice! Hádej slovo: ");
             string slova = File.ReadAllText(@"slova.txt");
-            Console.WriteLine(slova);
-        
+            Random random = new Random();
+            
         
         }
     }
